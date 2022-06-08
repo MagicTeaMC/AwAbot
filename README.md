@@ -5,4 +5,4 @@
 然後`node index.js`
 就這樣
 ## 版權
-您必須完全遵守 Apache-2.0 license 
+您必須完全遵守 GNU General Public License v3.0
