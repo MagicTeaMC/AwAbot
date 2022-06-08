@@ -8,7 +8,7 @@ client.on('ready', () => {
     console.log(`機器人登入到 ${client.user.tag}`);
 });
 client.on('message', msg => {
-    let set = (`${auth}`);
+    let set = (`${auth.AwAch}`);
     if (msg.channel.id === set) {
         if (msg.author.bot) return;
         if (msg.content === 'AwA') {
@@ -16,9 +16,7 @@ client.on('message', msg => {
             console.log("AwA");
         } else {
             msg.react('❌')
-            msg.channel.send(`
-                    $ { msg.author.tag }
-                    打錯了AwA `)
+            msg.channel.send(`${msg.author.tag}打錯了AwA`)
             console.log("有人手很Gay 打錯了")
         }
     }
