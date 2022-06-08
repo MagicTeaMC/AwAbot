@@ -1,4 +1,4 @@
-# AwAbot 一個看看你是不是手殘的機器人
+# AwAbot 來看看誰是是手殘AwA
 ## 怎麼用?
 就是裝好discord.js
 然後`node index.js`
